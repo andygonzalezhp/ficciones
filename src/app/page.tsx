@@ -18,6 +18,11 @@ export default function Home() {
             impression
           </Link>
         </li>
+        <li>
+          <Link href="https://art-is-everywhere.com" prefetch={false} className="hover:italic">
+            art is everywhere
+          </Link>
+        </li>
       </ul>
     </div>
   );
