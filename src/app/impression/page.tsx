@@ -16,7 +16,11 @@ export default function Impression() {
     <div>
       <Back />
       <h1 className="text-5xl mb-6">impression</h1>
-      <p className="opacity-80 mb-6">sic deinde quicumque alius transiliet moenia mea</p>
+      <p className="opacity-80 mb-6">caritas patiens est, benigna est.
+caritas non aemulatur, non agit perperam, non inflatur;
+non est ambitiosa, non quaerit quae sua sunt, non irritatur,
+non cogitat malum...
+caritas numquam excidit.</p>
 
       {/* masonry via CSS columns */}
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:_balance]">
