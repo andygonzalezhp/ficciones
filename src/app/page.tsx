@@ -19,7 +19,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="https://art-is-everywhere.com" prefetch={false} className="hover:italic">
+          <Link href="https://art-is-everywhere.com" prefetch={false} target="_blank" className="hover:italic">
             art is everywhere
           </Link>
         </li>
