@@ -18,10 +18,30 @@ export default function Home() {
             impression
           </Link>
         </li>
-        <li>
-          <Link href="https://art-is-everywhere.com" prefetch={false} target="_blank" className="hover:italic">
-            art is everywhere
-          </Link>
+        <li className="mt-180">
+          <p className="mb-2">cool websites</p>
+          <ul className="space-y-2 text-[28px] sm:text-[32px]">
+            <li>
+              <Link
+                href="https://zzz.zoomquilt.org/"
+                prefetch={false}
+                target="_blank"
+                className="hover:italic"
+              >
+                the zoomquilt
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://art-is-everywhere.com"
+                prefetch={false}
+                target="_blank"
+                className="hover:italic"
+              >
+                art is everywhere
+              </Link>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
